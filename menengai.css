@@ -1,0 +1,67 @@
+body{
+    background-image: url(menengai.png);
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    margin: 0;
+    
+}
+.ordination, .conference1{
+    display: none;
+
+}
+header{
+    position: fixed;
+    background-color: blue;
+    padding: 2em;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    width: 100%;
+    height: 8em;
+    margin: 0;
+}
+table{
+    position: fixed;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 80%;
+}
+td div{
+    width: 25em;
+    height: 15em;
+    background: radial-gradient(blue, rgba(255, 255, 255, 0.233));
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    margin-right: 10em;
+    margin-bottom: 5em;
+    border-radius: 0.2em;
+}
+td div p{
+    color: white;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+td div:hover{
+    cursor: pointer;
+    background: radial-gradient(blue, rgba(0, 60, 255, 0.363));
+}
+#back{
+    float: left;
+    padding: 1em;
+    padding-left: 2.5em;
+    padding-right: 2.5em;
+}
+#back:hover{
+    background-color: rgba(184, 184, 255, 0.381);
+    cursor: pointer;
+    
+}
