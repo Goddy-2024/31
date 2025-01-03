@@ -1,6 +1,5 @@
 body{
     background-image: url(menengai.png);
-    
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -8,7 +7,20 @@ body{
     margin: 0;
     
 }
-.ordination, .conference1{
+#logo{
+    background-image: url(logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 20%;
+    background-position: center;
+    width: 15em;
+    height: 15em;
+    position: fixed;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+.ordination, .conference1, #conference2{
     display: none;
 
 }
